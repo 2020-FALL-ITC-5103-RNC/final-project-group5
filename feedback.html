@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Feedback</title>
+    <meta name="Description" content="Humber bistro feedback page">
+    <meta name="keyword" content="humber,bistro,feedback,good,excellent,average">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/final-project-group5-main/styles/feedback.css">
+    <link rel="icon" href="images/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="rname">Humber Bistro</h1>
+
+        </header>
+        <!--Header-->
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="CoverPage.html">Home</a></li>
+                <li><a href="">Menu</a>
+                    <ul class="sublist">
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="onlineorder.html">take-out (online)</a></li>
+                        <li><a href="reservation.html">reservation</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Information</a>
+                    <ul class="sublist">
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="membership.html">Join membership</a></li>
+                        <li><a href="feedback.html">Customer feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Specials</a>
+                    <ul class="sublist">
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="promotions.html">Promotions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--Navigator-->
+
+        <!--Feekback form-->
+        <form name="feedback" method="GET" onsubmit="message()">
+            <div class="radiobutton">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    How do you rate your overall experience?<br><br>
+
+                    <input type="radio" id="bad" name="bad" value="bad" /> <label>Bad</label>
+
+                    <input type="radio" id="Good" name="good" value="good" /> <label>Good</label>
+
+                    <input type="radio" id="excellent" name="excellent" value="excellent" /> <label>Excellent</label>
+
+                    <br>
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" /> &nbsp; &nbsp;&nbsp;
+
+                        <label id="lemail">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="email123@gmail.com" /><br><br>
+
+                        <label>Age</label>
+                        &nbsp; &nbsp;&nbsp;<input type="text" id="age" name="age" placeholder="age" />
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="lphone">Phone</label>
+                        <input type="text" id="phone" name="phone" placeholder="phone" /><br><br>
+
+                        Comments:<br>
+                        <textarea rows="7" cols="50" name="comments"></textarea><br><br>
+
+
+                        <!-- message -->
+                        <div id="mymessage" class="message"> -->
+
+                            <!-- message content -->
+                            <div class="message-content">
+                                <span class="close">&times;</span>
+                                <h1>Thank You For your Response</h1>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+
+
+                    </div>
+
+                </fieldset>
+            </div>
+            <button id="submitform" onclick="validateForm()">Submit</button>
+        </form>
+
+    </div>
+
+
+    <footer>
+        <a>Copyright &copy; 2020 Humber Bistro <br></a>
+        <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
+    </footer>
+    <!--footer-->
+
+    <script src="/final-project-group5-main/js/feedfack.js">
+
+    </script>
+
+</body>
+
+</html>
