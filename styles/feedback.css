@@ -278,9 +278,9 @@
   }
 /*header and naviggation*/
   header {
-    background-color: whitesmoke;
-    background-image: url(/images/headwave.jpg);
-    background-size: cover;
+   background-color: whitesmoke;
+        background-image: url(../images/headwave.jpg);
+        background-repeat: no-repeat;
     background-repeat: no-repeat;
     max-width: 860px;
     max-width: 99%;
@@ -508,8 +508,8 @@
 /*header  and navigation*/
   header {
     background-color: whitesmoke;
-    background-image: url(/images/headwave.jpg);
-    background-size: cover;
+        background-image: url(../images/headwave.jpg);
+        background-repeat: no-repeat;
     background-repeat: no-repeat;
     max-width:  100%;
     margin: 0;
