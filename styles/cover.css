@@ -61,6 +61,7 @@
     z-index: 2;
   }
 
+
   .slide {
     font-size: 40px;
     box-sizing: border-box;
@@ -288,13 +289,14 @@ footer a {
   body {
     max-width: 414px;
     width: 95%;
-    margin: auto;
+   margin: 20px auto;
   }
 
   header {
     background-color: whitesmoke;
-    background-image: url(../images/headwave.jpg);
+    background-image: url(../images/headwave1.jpg);
     background-repeat: no-repeat;
+       background-size: cover;
     max-width: 414px;
     width: 89%;
     margin: auto;
@@ -319,6 +321,11 @@ footer a {
     height: 250px;
     margin: auto;
     list-style-type: none;
+  }
+  body {
+    max-width: 100%;
+    margin: 4%;
+    box-shadow: 0 0 10px 0 gray;
   }
 
   .slide {
@@ -674,8 +681,9 @@ footer a {
 
   header {
     background-color: whitesmoke;
-    background-image: url(../images/headwave.jpg);
+    background-image: url(../images/headwave2.jpg);
     background-repeat: no-repeat;
+       background-size: cover;
     max-width: 95%;
     margin: auto;
     border: 5px groove;
@@ -692,7 +700,7 @@ footer a {
   body {
     max-width: 860px;
     width: 95%;
-    margin: auto;
+     margin: 20px auto;
   }
   #imageheader {
     height: 500px;
@@ -703,6 +711,11 @@ footer a {
     height: 400px;
     margin: auto;
     list-style-type: none;
+  }
+  body {
+    max-width: 100%;
+    margin: 4%;
+    box-shadow: 0 0 10px 0 gray;
   }
 
   .slide {
