@@ -1,5 +1,5 @@
- /*validating for empty fields*/
- function validateForm() {
+/*validating for empty fields*/
+function validateForm() {
    var nameemp = document.forms["feedback"]["name"].value;
    var ageval = document.forms["feedback"]["age"].value;
    var emailval = document.forms["feedback"]["email"].value;
@@ -23,6 +23,7 @@
       return false;
    } /*code for displaying message*/ else {
       // Get the message
+   
       var message = document.getElementById("mymessage");
 
       // Get the button that opens the messaage
@@ -47,6 +48,7 @@
             message.style.display = "none";
          }
       };
+      return  true;
    }
 
 }

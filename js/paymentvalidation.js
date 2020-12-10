@@ -7,7 +7,7 @@ function cvvNumber(){
         return true;
     }
     else{
-        alert("CVV number should not  be more than 3 ");
+        alert("Enter 3 digit number");
      
         return false;
     }
@@ -42,7 +42,9 @@ function validateForm() {
         alert("card Number cannot be empty");
         return false;
     }else{
+        
         alert("Payment successful");
+        return true;
     }
         
   }
