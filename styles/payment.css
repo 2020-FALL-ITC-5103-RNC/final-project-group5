@@ -10,7 +10,8 @@
   body {
     max-width: 1040px;
     padding: 20px;
-    margin: 20px auto;
+    width: 100%;
+    margin: 20px 6%;
   }
 
   header {
@@ -102,9 +103,7 @@
     text-decoration: none;
   }
    body {
-    max-width: 100%;
-    margin: 6%;
-    box-shadow: 0 0 10px 0 gray;
+
   }
 
   nav ul ul li a {
