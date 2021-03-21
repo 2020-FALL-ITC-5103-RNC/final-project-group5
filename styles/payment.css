@@ -1,0 +1,619 @@
+/* Display 961px and above*/
+@media only screen and (min-width: 961px) {
+
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
+
+  body {
+    max-width: 1040px;
+    padding: 20px;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  header {
+    background-color: whitesmoke;
+    background-image: url(../images/headwave.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    border: 5px groove;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 400%;
+    font-weight: bolder;
+    font-family: 'Edwardian Script ITC';
+    padding: 10px;
+  }
+
+  nav {
+    background-color: whitesmoke;
+    margin: 0;
+    width: 100%;
+    height: 51px;
+    border: 5px groove;
+    padding: 0 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: auto;
+  }
+
+  nav ul li {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    margin: auto;
+  }
+
+  nav ul li:hover>ul {
+    width: 25%;
+    display: block;
+  }
+
+  .sublist {
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+  }
+
+  .sublist li {
+    width: 100%;
+    float: none;
+  }
+
+  nav>ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 14px 0px;
+    overflow: hidden;
+  }
+
+  nav ul ul li a {
+    display: block;
+    width: 100%;
+    padding: 14px 0px;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  nav ul li a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+    color: black;
+    text-decoration: none;
+  }
+ 
+
+  nav ul ul li a {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia;
+    color: white;
+    background-color: grey;
+    border: 3px groove;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover:not(.active) {
+    color: white;
+    background-color: grey;
+    border: 3px groove;
+  }
+
+  nav ul ul li a:hover:not(.active) {
+    color: rgb(172, 172, 0);
+    background-color: grey;
+    border: 3px groove;
+  }
+
+  .formContainer {
+    width: 100%;
+    height: 450px;
+    border: 5px groove;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 40px 20px;
+  }
+
+  .imgpay {
+    width: 45%;
+    float: left;
+
+  }
+
+  .imgpay img {
+    width: 550px;
+    height: 400px;
+
+  }
+
+  .formpay {
+    width: 50%;
+    float: right;
+
+  }
+
+  form {
+
+    background-color: rgb(248, 223, 223);
+    box-shadow: 0 0 10px 0 gray;
+    margin-left: 4em;
+    height: 280px;
+    padding: 60px;
+
+
+  }
+
+  #pay-now {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    clear: both;
+  }
+
+  footer a {
+    font-family: Cambria;
+    font-weight: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+  }
+
+}
+
+/* Display 360px and 630px */
+@media only screen and (min-width: 360px) and (max-width: 630px) {
+
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
+
+  body {
+    max-width: 1040px;
+    box-shadow: 0 0 10px 0 gray;
+     margin: 20px 13%;
+    background-color: white;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  
+    header {
+      background-color: whitesmoke;
+      background-image: url(../images/headwave1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 91%;
+      padding: 0 20px;
+      margin: 0;
+      border: 5px groove;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 300%;
+      font-weight: bolder;
+      font-family: 'Edwardian Script ITC';
+    }
+   body {
+    max-width: 100%;
+    margin: 6%;
+    box-shadow: 0 0 10px 0 gray;
+  }
+
+    main {
+      max-width: 414px;
+      width: 100%;
+      border: 5px groove;
+      background-color: whitesmoke;
+      margin: 0;
+      padding: 0 10px;
+    }
+
+    nav {
+      background-color: whitesmoke;
+      margin: 0;
+      width: 91%;
+      height: 30px;
+      border: 5px groove;
+      padding: 0 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      position: relative;
+      padding: 0;
+      margin: auto;
+    }
+
+    nav ul li {
+      float: left;
+      width: 25%;
+      padding: 0px;
+      margin: auto;
+    }
+
+    nav ul li:hover>ul {
+      width: 25%;
+      display: block;
+    }
+
+    .sublist {
+      display: none;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 100%;
+    }
+
+    .sublist li {
+      width: 100%;
+      float: none;
+    }
+
+    nav>ul::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    nav ul li a {
+      display: block;
+      width: 100%;
+      padding: 7px 0px;
+      overflow: hidden;
+    }
+
+    nav ul ul li a {
+      display: block;
+      width: 100%;
+      padding: 7px 0px;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    nav ul li a {
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: Georgia;
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ul ul li a {
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: Georgia;
+      color: white;
+      background-color: grey;
+      text-decoration: none;
+      border: 2px groove;
+    }
+
+    nav ul li a:hover:not(.active) {
+      color: white;
+      background-color: grey;
+      border: 2px groove;
+    }
+
+    nav ul ul li a:hover:not(.active) {
+      color: rgb(172, 172, 0);
+      background-color: grey;
+      border: 2px groove;
+    }
+
+    .imgpay {
+      width: 100%;
+      float: left;
+    }
+
+    .imgpay img {
+      width: 100%;
+      height: 10%;
+    
+    }
+
+    .formpay {
+      width: 100%;
+      float: right; 
+    }
+
+    form {
+      background-color: rgb(248, 223, 223);
+      box-shadow: 0 0 10px 0 gray;
+      max-height: 50%;
+      padding: 60px;
+margin: 5%;
+
+    }
+
+    #pay-now {
+      display: flex;
+      justify-content: center;
+    }
+
+    footer {
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+      margin-top: 50px;
+      clear: both;
+    }
+
+    footer a {
+      font-family: Cambria;
+      font-weight: 100px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      color: gray;
+    }
+  }
+
+  /* Display 631px and 960px*/
+  @media only screen and (min-width: 631px) and (max-width: 960px) {
+
+
+    html {
+      background-image: url(../images/background.jpg);
+      background-repeat: repeat;
+      width: 100%;
+    }
+
+    body {
+      max-width: 1040px;
+      box-shadow: 0 0 10px 0 gray;
+      margin: 20px auto;
+      background-color: white;
+    }
+
+    input {
+      max-width: 90%;
+    }
+
+
+    header {
+      background-color: whitesmoke;
+      background-image: url(../images/headwave2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 94.7%;
+      margin: 0;
+      border: 5px groove;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 400%;
+      font-weight: bolder;
+      font-family: 'Edwardian Script ITC';
+      padding: 10px;
+    }
+
+    nav {
+      background-color: whitesmoke;
+      margin: 0;
+
+      height: 51px;
+      border: 5px groove;
+      padding: 0 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      position: relative;
+      padding: 0;
+      margin: auto;
+    }
+
+    nav ul li {
+      float: left;
+      width: 25%;
+      padding: 0px;
+      margin: auto;
+    }
+
+    nav ul li:hover>ul {
+      width: 25%;
+      display: block;
+    }
+
+    .sublist {
+      display: none;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 100%;
+    }
+
+    .sublist li {
+      width: 100%;
+      float: none;
+    }
+     body {
+    max-width: 100%;
+    margin: 6%;
+    box-shadow: 0 0 10px 0 gray;
+  }
+
+    nav>ul::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    nav ul li a {
+      display: block;
+      width: 100%;
+      padding: 14px 0px;
+      overflow: hidden;
+    }
+
+    nav ul ul li a {
+      display: block;
+      width: 100%;
+      padding: 14px 0px;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    nav ul li a {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Georgia;
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ul ul li a {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: Georgia;
+      color: white;
+      background-color: grey;
+      border: 3px groove;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover:not(.active) {
+      color: white;
+      background-color: grey;
+      border: 3px groove;
+    }
+
+    nav ul ul li a:hover:not(.active) {
+      color: rgb(172, 172, 0);
+      background-color: grey;
+      border: 3px groove;
+    }
+
+    nav {
+      max-width: 94.7%;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: auto;
+    }
+
+    nav ul li {
+      float: left;
+      width: 25%;
+      margin: auto;
+    }
+
+    nav ul li a {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Georgia;
+      color: black;
+      padding: 14px 20px;
+      margin: auto;
+    }
+
+    nav ul li a:hover:not(.active) {
+      color: white;
+      background-color: black;
+    }
+
+    .imgpay {
+      width: 35%;
+      float: left;
+
+    }
+
+    .imgpay img {
+      width: 400px;
+      height: 400px;
+
+    }
+
+    .formpay {
+      width: 50%;
+      float: right;
+
+    }
+
+    .formContainer {
+      margin: 3%;
+
+    }
+
+
+
+    form {
+      max-height: 60%;
+      background-color: rgb(248, 223, 223);
+      box-shadow: 0 0 10px 0 gray;
+      margin-left: 4em;
+      height: 280px;
+      padding: 60px;
+
+
+    }
+
+    #pay-now {
+      display: flex;
+      justify-content: center;
+    }
+
+    footer {
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+      margin-top: 50px;
+      clear: both;
+    }
+
+    footer a {
+      font-family: Cambria;
+      font-weight: 100px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      color: gray;
+    }
+  }
